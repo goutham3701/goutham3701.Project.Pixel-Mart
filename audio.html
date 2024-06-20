@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Mart</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/category.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-search">
+        <input type="search" name="search" placeholder="Search Product..." class="input-field">
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <a href="#" class="logo">
+        <img src="image/Logo.png" alt="Pixel Mart" width="60" height="30">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Login</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Search</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Cart</p>
+
+          <div class="btn-badge green" aria-hidden="true">5</div>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Wishlist</p>
+
+          <div class="btn-badge" aria-hidden="true">13</div>
+        </button>
+
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="image/Logo.png" alt="Pixel Mart" width="20" height="10">
+          </a>
+
+          <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+            <li>
+              <a href="./index.html#home" class="navbar-link">Home</a>
+            </li>
+  
+            <li>
+              <a href="./mobiles.html" class="navbar-link">Mobiles & Accessories</a>
+            </li>
+            <li>
+              <a href="./laptop.html" class="navbar-link">Laptops & Accessories</a>
+            </li>
+  
+            <li>
+              <a href="./tv.html" class="navbar-link">TV & Home Entertainment</a>
+            </li>
+  
+            <li>
+              <a href="./audio.html" class="navbar-link">Audio & Camera</a>
+            </li>
+  
+            
+          </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+    <div class = "wrapper">
+        <div class = "container">
+            <div class = "heading-title">
+                <h1>Audio & Camera</h1>
+                <p>Discover the latest in Audio & Camera technology with unbeatable prices<br> and exclusive deals, only at<span> Pixel Mart</span>.</p>
+            </div>
+
+            <div class = "item-grid">
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "image/category-img/sonyb.png" alt = "">
+                        <div class = "item-action">
+                            <a href = "#" class = "view">
+                                <span>
+                                    <i class = "fas fa-search-plus"></i>
+                                </span>
+                            </a>
+                            <a href = "#" class = "buy">
+                                <span>
+                                    <i class = "fas fa-cart-plus"></i>
+                                </span>
+                            </a>
+                            <a href = "#" class = "wishlist">
+                                <span>
+                                    <i class = "fas fa-heart"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class = "item-details">
+                        <ul class = "rating">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                        </ul>
+                        <p class = "price">&#8377; 3490.00</p>
+                        <p class = "name">Sony ST-40BR</p>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "image/category-img/sonyhb.png" alt = "">
+                        <div class = "item-action">
+                            <a href = "#" class = "view">
+                                <span>
+                                    <i class = "fas fa-search-plus"></i>
+                                </span>
+                            </a>
+                            <a href = "#" class = "buy">
+                                <span>
+                                    <i class = "fas fa-cart-plus"></i>
+                                </span>
+                            </a>
+                            <a href = "#" class = "wishlist">
+                                <span>
+                                    <i class = "fas fa-heart"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class = "item-details">
+                        <ul class = "rating">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                        </ul>
+                        <p class = "price">&#8377; 3590.00</p>
+                        <p class = "name">Sony WH-560CH</p>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "image/category-img/fujicam.png" alt = "">
+                        <div class = "item-action">
+                            <a href = "#" class = "view">
+                                <span>
+                                    <i class = "fas fa-search-plus"></i>
+                                </span>
+                            </a>
+                            <a href = "#" class = "buy">
+                                <span>
+                                    <i class = "fas fa-cart-plus"></i>
+                                </span>
+                            </a>
+                            <a href = "#" class = "wishlist">
+                                <span>
+                                    <i class = "fas fa-heart"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class = "item-details">
+                        <ul class = "rating">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fa-regular fa-star"></i></li>
+                        </ul>
+                        <p class = "price">&#8377; 135609.00</p>
+                        <p class = "name">FujiFilm W-FC24R</p>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "image/category-img/hero12.png" alt = "">
+                        <div class = "item-action">
+                            <a href = "#" class = "view">
+                                <span>
+                                    <i class = "fas fa-search-plus"></i>
+                                </span>
+                            </a>
+                            <a href = "#" class = "buy">
+                                <span>
+                                    <i class = "fas fa-cart-plus"></i>
+                                </span>
+                            </a>
+                            <a href = "#" class = "wishlist">
+                                <span>
+                                    <i class = "fas fa-heart"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class = "item-details">
+                        <ul class = "rating">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                        </ul>
+                        <p class = "price">&#8377; 59000.00</p>
+                        <p class = "name">GoPro Hero 12</p>
+                    </div>
+                </div>
+
+   
+
+            </div>
+        </div>
+    </div>
+    
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="image/Logo.png" alt="Pixel Mart" width="60" height="30">
+          </a>
+
+          <p class="footer-text">
+            Pixel Mart is a leading e-commerce platform offering a wide range of the latest technology products, from gadgets to home electronics, at competitive prices. Our user-friendly website ensures a seamless shopping experience with fast shipping and excellent customer service.
+y
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Payment</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Become an Partner</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Category</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Mobiles</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Laptops</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Accessories</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home Appliances</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Electronics</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Smart Gadgets</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Help & Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Dealers & Agents</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Return Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping & Delivery</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Order Tracking</a>
+          </li>
+
+
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#"></a>. All Rights Reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Sitemap</a>
+          </li>
+
+        </ul>
+
+        <div class="payment">
+          <p class="payment-title">We Support</p>
+
+          <img src="image/paymentimg.png" alt="Online payment logos" class="payment-img">
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+    <script src="js/main.js">
+        
+        let view = document.querySelectorAll('.view');
+        let buy = document.querySelectorAll('.buy');
+        let wishlist = document.querySelectorAll('.wishlist');
+
+        setContent(view, 'View');
+        setContent(buy, 'Add to Cart');
+        setContent(wishlist, 'Save Item');
+
+        function setContent(list, text){
+            list.forEach((listItem) => {
+                listItem.setAttribute('data-before', text);
+            });
+        }
+    </script>
+
+
+<!-- 
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
